@@ -1,0 +1,133 @@
+import { CraftingRecipe } from '../types/game';
+
+function buildTierToolSet(
+  prefix: string,
+  matId: string,
+): CraftingRecipe[] {
+  return [
+    {
+      id: `${prefix}_pickaxe`,
+      resultItemId: `${prefix}_pickaxe`,
+      resultCount: 1,
+      requiresTable: true,
+      pattern: ['MMM', ' S ', ' S '],
+      key: { M: matId, S: 'stick' },
+    },
+    {
+      id: `${prefix}_axe`,
+      resultItemId: `${prefix}_axe`,
+      resultCount: 1,
+      requiresTable: true,
+      pattern: ['MM', 'MS', ' S'],
+      key: { M: matId, S: 'stick' },
+    },
+    {
+      id: `${prefix}_shovel`,
+      resultItemId: `${prefix}_shovel`,
+      resultCount: 1,
+      requiresTable: true,
+      pattern: ['M', 'S', 'S'],
+      key: { M: matId, S: 'stick' },
+    },
+    {
+      id: `${prefix}_hoe`,
+      resultItemId: `${prefix}_hoe`,
+      resultCount: 1,
+      requiresTable: true,
+      pattern: ['MM', ' S', ' S'],
+      key: { M: matId, S: 'stick' },
+    },
+    {
+      id: `${prefix}_sword`,
+      resultItemId: `${prefix}_sword`,
+      resultCount: 1,
+      requiresTable: true,
+      pattern: ['M', 'M', 'S'],
+      key: { M: matId, S: 'stick' },
+    },
+  ];
+}
+
+export const TOOL_AND_ARMOR_RECIPES: CraftingRecipe[] = [
+  ...buildTierToolSet('wood', 'oak_planks'),
+  ...buildTierToolSet('stone', 'cobblestone'),
+  ...buildTierToolSet('iron', 'iron_ingot'),
+  ...buildTierToolSet('gold', 'gold_ingot'),
+  ...buildTierToolSet('diamond', 'diamond'),
+  ...buildTierToolSet('netherite', 'netherite_ingot'),
+  {
+    id: 'netherite_ingot',
+    resultItemId: 'netherite_ingot',
+    resultCount: 1,
+    requiresTable: true,
+    ingredients: [
+      { itemId: 'diamond', count: 2 },
+      { itemId: 'gold_ingot', count: 2 },
+      { itemId: 'coal', count: 2 },
+    ],
+  },
+  {
+    id: 'leather_helmet',
+    resultItemId: 'leather_helmet',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['LLL', 'L L'],
+    key: { L: 'leather' },
+  },
+  {
+    id: 'leather_chestplate',
+    resultItemId: 'leather_chestplate',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['L L', 'LLL', 'LLL'],
+    key: { L: 'leather' },
+  },
+  {
+    id: 'iron_helmet',
+    resultItemId: 'iron_helmet',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['III', 'I I'],
+    key: { I: 'iron_ingot' },
+  },
+  {
+    id: 'iron_chestplate',
+    resultItemId: 'iron_chestplate',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['I I', 'III', 'III'],
+    key: { I: 'iron_ingot' },
+  },
+  {
+    id: 'iron_leggings',
+    resultItemId: 'iron_leggings',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['III', 'I I', 'I I'],
+    key: { I: 'iron_ingot' },
+  },
+  {
+    id: 'iron_boots',
+    resultItemId: 'iron_boots',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['I I', 'I I'],
+    key: { I: 'iron_ingot' },
+  },
+  {
+    id: 'diamond_helmet',
+    resultItemId: 'diamond_helmet',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['DDD', 'D D'],
+    key: { D: 'diamond' },
+  },
+  {
+    id: 'diamond_chestplate',
+    resultItemId: 'diamond_chestplate',
+    resultCount: 1,
+    requiresTable: true,
+    pattern: ['D D', 'DDD', 'DDD'],
+    key: { D: 'diamond' },
+  },
+];

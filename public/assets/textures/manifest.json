@@ -1,0 +1,936 @@
+{
+  "tileSize": 16,
+  "atlasCols": 16,
+  "tiles": [
+    {
+      "key": "GRASS_TOP",
+      "index": 0,
+      "filename": "grass_top.png",
+      "pngPath": "/assets/textures/blocks/grass_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 0
+    },
+    {
+      "key": "GRASS_SIDE",
+      "index": 1,
+      "filename": "grass_side.png",
+      "pngPath": "/assets/textures/blocks/grass_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 0
+    },
+    {
+      "key": "DIRT",
+      "index": 2,
+      "filename": "dirt.png",
+      "pngPath": "/assets/textures/blocks/dirt.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 0
+    },
+    {
+      "key": "STONE",
+      "index": 3,
+      "filename": "stone.png",
+      "pngPath": "/assets/textures/blocks/stone.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 0
+    },
+    {
+      "key": "COBBLESTONE",
+      "index": 4,
+      "filename": "cobblestone.png",
+      "pngPath": "/assets/textures/blocks/cobblestone.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 0
+    },
+    {
+      "key": "SAND",
+      "index": 5,
+      "filename": "sand.png",
+      "pngPath": "/assets/textures/blocks/sand.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 0
+    },
+    {
+      "key": "SANDSTONE_TOP",
+      "index": 6,
+      "filename": "sandstone_top.png",
+      "pngPath": "/assets/textures/blocks/sandstone_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 0
+    },
+    {
+      "key": "SANDSTONE_SIDE",
+      "index": 7,
+      "filename": "sandstone_side.png",
+      "pngPath": "/assets/textures/blocks/sandstone_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 0
+    },
+    {
+      "key": "OAK_LOG_TOP",
+      "index": 8,
+      "filename": "oak_log_top.png",
+      "pngPath": "/assets/textures/blocks/oak_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 0
+    },
+    {
+      "key": "OAK_LOG_SIDE",
+      "index": 9,
+      "filename": "oak_log_side.png",
+      "pngPath": "/assets/textures/blocks/oak_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 0
+    },
+    {
+      "key": "OAK_LEAVES",
+      "index": 10,
+      "filename": "oak_leaves.png",
+      "pngPath": "/assets/textures/blocks/oak_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 0
+    },
+    {
+      "key": "OAK_PLANKS",
+      "index": 11,
+      "filename": "oak_planks.png",
+      "pngPath": "/assets/textures/blocks/oak_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 0
+    },
+    {
+      "key": "PINE_LOG_SIDE",
+      "index": 12,
+      "filename": "pine_log_side.png",
+      "pngPath": "/assets/textures/blocks/pine_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 0
+    },
+    {
+      "key": "PINE_LEAVES",
+      "index": 13,
+      "filename": "pine_leaves.png",
+      "pngPath": "/assets/textures/blocks/pine_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 13,
+      "atlasRow": 0
+    },
+    {
+      "key": "JUNGLE_LOG_SIDE",
+      "index": 14,
+      "filename": "jungle_log_side.png",
+      "pngPath": "/assets/textures/blocks/jungle_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 14,
+      "atlasRow": 0
+    },
+    {
+      "key": "JUNGLE_LEAVES",
+      "index": 15,
+      "filename": "jungle_leaves.png",
+      "pngPath": "/assets/textures/blocks/jungle_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 15,
+      "atlasRow": 0
+    },
+    {
+      "key": "WATER",
+      "index": 16,
+      "filename": "water.png",
+      "pngPath": "/assets/textures/blocks/water.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 1
+    },
+    {
+      "key": "GLASS",
+      "index": 17,
+      "filename": "glass.png",
+      "pngPath": "/assets/textures/blocks/glass.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 1
+    },
+    {
+      "key": "COAL_ORE",
+      "index": 18,
+      "filename": "coal_ore.png",
+      "pngPath": "/assets/textures/blocks/coal_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 1
+    },
+    {
+      "key": "IRON_ORE",
+      "index": 19,
+      "filename": "iron_ore.png",
+      "pngPath": "/assets/textures/blocks/iron_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 1
+    },
+    {
+      "key": "GOLD_ORE",
+      "index": 20,
+      "filename": "gold_ore.png",
+      "pngPath": "/assets/textures/blocks/gold_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 1
+    },
+    {
+      "key": "DIAMOND_ORE",
+      "index": 21,
+      "filename": "diamond_ore.png",
+      "pngPath": "/assets/textures/blocks/diamond_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 1
+    },
+    {
+      "key": "BEDROCK",
+      "index": 22,
+      "filename": "bedrock.png",
+      "pngPath": "/assets/textures/blocks/bedrock.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 1
+    },
+    {
+      "key": "SNOW",
+      "index": 23,
+      "filename": "snow.png",
+      "pngPath": "/assets/textures/blocks/snow.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 1
+    },
+    {
+      "key": "ICE",
+      "index": 24,
+      "filename": "ice.png",
+      "pngPath": "/assets/textures/blocks/ice.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 1
+    },
+    {
+      "key": "CACTUS_TOP",
+      "index": 25,
+      "filename": "cactus_top.png",
+      "pngPath": "/assets/textures/blocks/cactus_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 1
+    },
+    {
+      "key": "CACTUS_SIDE",
+      "index": 26,
+      "filename": "cactus_side.png",
+      "pngPath": "/assets/textures/blocks/cactus_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 1
+    },
+    {
+      "key": "CRAFTING_TOP",
+      "index": 27,
+      "filename": "crafting_top.png",
+      "pngPath": "/assets/textures/blocks/crafting_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 1
+    },
+    {
+      "key": "CRAFTING_SIDE",
+      "index": 28,
+      "filename": "crafting_side.png",
+      "pngPath": "/assets/textures/blocks/crafting_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 1
+    },
+    {
+      "key": "FURNACE_TOP",
+      "index": 29,
+      "filename": "furnace_top.png",
+      "pngPath": "/assets/textures/blocks/furnace_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 13,
+      "atlasRow": 1
+    },
+    {
+      "key": "FURNACE_SIDE",
+      "index": 30,
+      "filename": "furnace_side.png",
+      "pngPath": "/assets/textures/blocks/furnace_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 14,
+      "atlasRow": 1
+    },
+    {
+      "key": "TORCH",
+      "index": 31,
+      "filename": "torch.png",
+      "pngPath": "/assets/textures/blocks/torch.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 15,
+      "atlasRow": 1
+    },
+    {
+      "key": "BRICK",
+      "index": 32,
+      "filename": "brick.png",
+      "pngPath": "/assets/textures/blocks/brick.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 2
+    },
+    {
+      "key": "CLAY",
+      "index": 33,
+      "filename": "clay.png",
+      "pngPath": "/assets/textures/blocks/clay.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 2
+    },
+    {
+      "key": "SWAMP_GRASS_TOP",
+      "index": 34,
+      "filename": "swamp_grass_top.png",
+      "pngPath": "/assets/textures/blocks/swamp_grass_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 2
+    },
+    {
+      "key": "SWAMP_GRASS_SIDE",
+      "index": 35,
+      "filename": "swamp_grass_side.png",
+      "pngPath": "/assets/textures/blocks/swamp_grass_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 2
+    },
+    {
+      "key": "SNOW_GRASS_SIDE",
+      "index": 36,
+      "filename": "snow_grass_side.png",
+      "pngPath": "/assets/textures/blocks/snow_grass_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 2
+    },
+    {
+      "key": "TALL_GRASS",
+      "index": 37,
+      "filename": "tall_grass.png",
+      "pngPath": "/assets/textures/blocks/tall_grass.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 2
+    },
+    {
+      "key": "FLOWER_RED",
+      "index": 38,
+      "filename": "flower_red.png",
+      "pngPath": "/assets/textures/blocks/flower_red.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 2
+    },
+    {
+      "key": "FLOWER_YELLOW",
+      "index": 39,
+      "filename": "flower_yellow.png",
+      "pngPath": "/assets/textures/blocks/flower_yellow.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 2
+    },
+    {
+      "key": "REED",
+      "index": 40,
+      "filename": "reed.png",
+      "pngPath": "/assets/textures/blocks/reed.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 2
+    },
+    {
+      "key": "WOOL",
+      "index": 41,
+      "filename": "wool.png",
+      "pngPath": "/assets/textures/blocks/wool.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 2
+    },
+    {
+      "key": "CHEST_TOP",
+      "index": 42,
+      "filename": "chest_top.png",
+      "pngPath": "/assets/textures/blocks/chest_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 2
+    },
+    {
+      "key": "CHEST_SIDE",
+      "index": 43,
+      "filename": "chest_side.png",
+      "pngPath": "/assets/textures/blocks/chest_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 2
+    },
+    {
+      "key": "BARREL_TOP",
+      "index": 44,
+      "filename": "barrel_top.png",
+      "pngPath": "/assets/textures/blocks/barrel_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 2
+    },
+    {
+      "key": "BARREL_SIDE",
+      "index": 45,
+      "filename": "barrel_side.png",
+      "pngPath": "/assets/textures/blocks/barrel_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 13,
+      "atlasRow": 2
+    },
+    {
+      "key": "DOOR_WOOD",
+      "index": 46,
+      "filename": "door_wood.png",
+      "pngPath": "/assets/textures/blocks/door_wood.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 14,
+      "atlasRow": 2
+    },
+    {
+      "key": "BED_TOP",
+      "index": 47,
+      "filename": "bed_top.png",
+      "pngPath": "/assets/textures/blocks/bed_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 15,
+      "atlasRow": 2
+    },
+    {
+      "key": "BED_SIDE",
+      "index": 48,
+      "filename": "bed_side.png",
+      "pngPath": "/assets/textures/blocks/bed_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 3
+    },
+    {
+      "key": "ANVIL_TOP",
+      "index": 49,
+      "filename": "anvil_top.png",
+      "pngPath": "/assets/textures/blocks/anvil_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 3
+    },
+    {
+      "key": "ANVIL_SIDE",
+      "index": 50,
+      "filename": "anvil_side.png",
+      "pngPath": "/assets/textures/blocks/anvil_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 3
+    },
+    {
+      "key": "GRAVEL",
+      "index": 51,
+      "filename": "gravel.png",
+      "pngPath": "/assets/textures/blocks/gravel.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 3
+    },
+    {
+      "key": "MUD",
+      "index": 52,
+      "filename": "mud.png",
+      "pngPath": "/assets/textures/blocks/mud.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 3
+    },
+    {
+      "key": "BIRCH_LOG_TOP",
+      "index": 53,
+      "filename": "birch_log_top.png",
+      "pngPath": "/assets/textures/blocks/birch_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 3
+    },
+    {
+      "key": "BIRCH_LOG_SIDE",
+      "index": 54,
+      "filename": "birch_log_side.png",
+      "pngPath": "/assets/textures/blocks/birch_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 3
+    },
+    {
+      "key": "BIRCH_LEAVES",
+      "index": 55,
+      "filename": "birch_leaves.png",
+      "pngPath": "/assets/textures/blocks/birch_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 3
+    },
+    {
+      "key": "PINE_LOG_TOP",
+      "index": 56,
+      "filename": "pine_log_top.png",
+      "pngPath": "/assets/textures/blocks/pine_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 3
+    },
+    {
+      "key": "JUNGLE_LOG_TOP",
+      "index": 57,
+      "filename": "jungle_log_top.png",
+      "pngPath": "/assets/textures/blocks/jungle_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 3
+    },
+    {
+      "key": "ACACIA_LOG_TOP",
+      "index": 58,
+      "filename": "acacia_log_top.png",
+      "pngPath": "/assets/textures/blocks/acacia_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 3
+    },
+    {
+      "key": "ACACIA_LOG_SIDE",
+      "index": 59,
+      "filename": "acacia_log_side.png",
+      "pngPath": "/assets/textures/blocks/acacia_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 3
+    },
+    {
+      "key": "ACACIA_LEAVES",
+      "index": 60,
+      "filename": "acacia_leaves.png",
+      "pngPath": "/assets/textures/blocks/acacia_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 3
+    },
+    {
+      "key": "DARK_OAK_LOG_TOP",
+      "index": 61,
+      "filename": "dark_oak_log_top.png",
+      "pngPath": "/assets/textures/blocks/dark_oak_log_top.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 13,
+      "atlasRow": 3
+    },
+    {
+      "key": "DARK_OAK_LOG_SIDE",
+      "index": 62,
+      "filename": "dark_oak_log_side.png",
+      "pngPath": "/assets/textures/blocks/dark_oak_log_side.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 14,
+      "atlasRow": 3
+    },
+    {
+      "key": "DARK_OAK_LEAVES",
+      "index": 63,
+      "filename": "dark_oak_leaves.png",
+      "pngPath": "/assets/textures/blocks/dark_oak_leaves.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 15,
+      "atlasRow": 3
+    },
+    {
+      "key": "COPPER_ORE",
+      "index": 64,
+      "filename": "copper_ore.png",
+      "pngPath": "/assets/textures/blocks/copper_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 4
+    },
+    {
+      "key": "EMERALD_ORE",
+      "index": 65,
+      "filename": "emerald_ore.png",
+      "pngPath": "/assets/textures/blocks/emerald_ore.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 4
+    },
+    {
+      "key": "WHITE_CONCRETE",
+      "index": 66,
+      "filename": "white_concrete.png",
+      "pngPath": "/assets/textures/blocks/white_concrete.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 4
+    },
+    {
+      "key": "TERRACOTTA",
+      "index": 67,
+      "filename": "terracotta.png",
+      "pngPath": "/assets/textures/blocks/terracotta.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 4
+    },
+    {
+      "key": "BIRCH_PLANKS",
+      "index": 68,
+      "filename": "birch_planks.png",
+      "pngPath": "/assets/textures/blocks/birch_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 4
+    },
+    {
+      "key": "SPRUCE_PLANKS",
+      "index": 69,
+      "filename": "spruce_planks.png",
+      "pngPath": "/assets/textures/blocks/spruce_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 4
+    },
+    {
+      "key": "JUNGLE_PLANKS",
+      "index": 70,
+      "filename": "jungle_planks.png",
+      "pngPath": "/assets/textures/blocks/jungle_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 4
+    },
+    {
+      "key": "ACACIA_PLANKS",
+      "index": 71,
+      "filename": "acacia_planks.png",
+      "pngPath": "/assets/textures/blocks/acacia_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 4
+    },
+    {
+      "key": "DARK_OAK_PLANKS",
+      "index": 72,
+      "filename": "dark_oak_planks.png",
+      "pngPath": "/assets/textures/blocks/dark_oak_planks.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 4
+    },
+    {
+      "key": "OAK_SAPLING",
+      "index": 73,
+      "filename": "oak_sapling.png",
+      "pngPath": "/assets/textures/blocks/oak_sapling.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 4
+    },
+    {
+      "key": "BIRCH_SAPLING",
+      "index": 74,
+      "filename": "birch_sapling.png",
+      "pngPath": "/assets/textures/blocks/birch_sapling.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 4
+    },
+    {
+      "key": "SPRUCE_SAPLING",
+      "index": 75,
+      "filename": "spruce_sapling.png",
+      "pngPath": "/assets/textures/blocks/spruce_sapling.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 4
+    },
+    {
+      "key": "SHRUB",
+      "index": 76,
+      "filename": "shrub.png",
+      "pngPath": "/assets/textures/blocks/shrub.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 4
+    },
+    {
+      "key": "FURNACE_FRONT",
+      "index": 77,
+      "filename": "furnace_front.png",
+      "pngPath": "/assets/textures/blocks/furnace_front.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 13,
+      "atlasRow": 4
+    },
+    {
+      "key": "FURNACE_BACK",
+      "index": 78,
+      "filename": "furnace_back.png",
+      "pngPath": "/assets/textures/blocks/furnace_back.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 14,
+      "atlasRow": 4
+    },
+    {
+      "key": "CRAFTING_FRONT",
+      "index": 79,
+      "filename": "crafting_front.png",
+      "pngPath": "/assets/textures/blocks/crafting_front.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 15,
+      "atlasRow": 4
+    },
+    {
+      "key": "CHEST_FRONT",
+      "index": 80,
+      "filename": "chest_front.png",
+      "pngPath": "/assets/textures/blocks/chest_front.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 0,
+      "atlasRow": 5
+    },
+    {
+      "key": "BED_WOOD",
+      "index": 81,
+      "filename": "bed_wood.png",
+      "pngPath": "/assets/textures/blocks/bed_wood.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 1,
+      "atlasRow": 5
+    },
+    {
+      "key": "BED_MATTRESS",
+      "index": 82,
+      "filename": "bed_mattress.png",
+      "pngPath": "/assets/textures/blocks/bed_mattress.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 2,
+      "atlasRow": 5
+    },
+    {
+      "key": "BED_BLANKET",
+      "index": 83,
+      "filename": "bed_blanket.png",
+      "pngPath": "/assets/textures/blocks/bed_blanket.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 3,
+      "atlasRow": 5
+    },
+    {
+      "key": "BED_BLANKET_TRIM",
+      "index": 84,
+      "filename": "bed_blanket_trim.png",
+      "pngPath": "/assets/textures/blocks/bed_blanket_trim.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 4,
+      "atlasRow": 5
+    },
+    {
+      "key": "BED_PILLOW",
+      "index": 85,
+      "filename": "bed_pillow.png",
+      "pngPath": "/assets/textures/blocks/bed_pillow.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 5,
+      "atlasRow": 5
+    },
+    {
+      "key": "BARREL_BOTTOM",
+      "index": 86,
+      "filename": "barrel_bottom.png",
+      "pngPath": "/assets/textures/blocks/barrel_bottom.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 6,
+      "atlasRow": 5
+    },
+    {
+      "key": "FLOWER_STEM",
+      "index": 87,
+      "filename": "flower_stem.png",
+      "pngPath": "/assets/textures/blocks/flower_stem.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 7,
+      "atlasRow": 5
+    },
+    {
+      "key": "FLOWER_LEAF",
+      "index": 88,
+      "filename": "flower_leaf.png",
+      "pngPath": "/assets/textures/blocks/flower_leaf.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 8,
+      "atlasRow": 5
+    },
+    {
+      "key": "POPPY_PETAL",
+      "index": 89,
+      "filename": "poppy_petal.png",
+      "pngPath": "/assets/textures/blocks/poppy_petal.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 9,
+      "atlasRow": 5
+    },
+    {
+      "key": "POPPY_CENTER",
+      "index": 90,
+      "filename": "poppy_center.png",
+      "pngPath": "/assets/textures/blocks/poppy_center.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 10,
+      "atlasRow": 5
+    },
+    {
+      "key": "DANDELION_PETAL",
+      "index": 91,
+      "filename": "dandelion_petal.png",
+      "pngPath": "/assets/textures/blocks/dandelion_petal.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 11,
+      "atlasRow": 5
+    },
+    {
+      "key": "DANDELION_CENTER",
+      "index": 92,
+      "filename": "dandelion_center.png",
+      "pngPath": "/assets/textures/blocks/dandelion_center.png",
+      "width": 16,
+      "height": 16,
+      "atlasCol": 12,
+      "atlasRow": 5
+    }
+  ]
+}

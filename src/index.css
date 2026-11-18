@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d1117;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: "Chakra Petch", system-ui, sans-serif;
+}
+
+.font-mono-num {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.hud-text-shadow {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.92), 0 0 2px rgba(0, 0, 0, 0.95);
+}
+
+.voxel-panel {
+  background-color: #181d26;
+  border: 2px solid #0b0e14;
+  box-shadow:
+    inset 2px 2px 0 rgba(255, 255, 255, 0.14),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.55),
+    0 14px 36px rgba(0, 0, 0, 0.65);
+}
+
+.voxel-inset {
+  background-color: #11151d;
+  border: 2px solid #0b0e14;
+  box-shadow:
+    inset 2px 2px 0 rgba(0, 0, 0, 0.65),
+    inset -1px -1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.voxel-slot {
+  background-color: #212734;
+  border: 2px solid #0d1118;
+  box-shadow:
+    inset 2px 2px 0 rgba(0, 0, 0, 0.62),
+    inset -2px -2px 0 rgba(255, 255, 255, 0.12);
+}
+
+.voxel-slot:hover {
+  background-color: #2a3242;
+  border-color: #f59e0b;
+}
+
+.voxel-slot-active {
+  background-color: #363e4f;
+  border: 2px solid #fbbf24;
+  box-shadow:
+    inset 2px 2px 0 rgba(255, 255, 255, 0.22),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(251, 191, 36, 0.45);
+}
+
+.voxel-btn-amber {
+  background-color: #f59e0b;
+  color: #120d05;
+  border: 2px solid #78350f;
+  box-shadow:
+    inset 2px 2px 0 rgba(255, 245, 200, 0.55),
+    inset -2px -3px 0 #b45309;
+}
+
+.voxel-btn-amber:hover:not(:disabled) {
+  background-color: #fbbf24;
+}
+
+.voxel-btn-amber:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: inset 2px 2px 0 #b45309;
+}
+
+.voxel-btn-stone {
+  background-color: #272e3c;
+  color: #f1f5f9;
+  border: 2px solid #0b0e14;
+  box-shadow:
+    inset 2px 2px 0 rgba(255, 255, 255, 0.15),
+    inset -2px -3px 0 rgba(0, 0, 0, 0.55);
+}
+
+.voxel-btn-stone:hover:not(:disabled) {
+  background-color: #323b4d;
+}
+
+.voxel-btn-stone:active:not(:disabled) {
+  transform: translateY(1px);
+}

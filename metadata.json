@@ -1,0 +1,6 @@
+{
+  "name": "BLOCKWORLD",
+  "description": "A 3D procedural voxel sandbox survival game featuring 8 biomes, dynamic day/night and weather cycles, crafting, mining, building, and passive and hostile mobs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
